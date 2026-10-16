@@ -1,0 +1,71 @@
+{
+  "pod_version": "4.0",
+  "instrument": "FR40_EUR",
+  "granularity": "D",
+  "chunk_start": "2010-01-01",
+  "chunk_end": "2019-12-31",
+  "parquet_file": "OANDA_FR40EUR_France-40_D_2010-01-01_to_2019-12-31.parquet",
+  "data_file": "OANDA_FR40EUR_France-40_D_2010-01-01_to_2019-12-31.parquet",
+  "row_count": 2569,
+  "first_candle": {
+    "time": 1262556000,
+    "Time": "2010-01-03T22:00:00.000000000Z",
+    "open": 3944.1,
+    "high": 4012.7,
+    "low": 3934.6,
+    "close": 3996.9,
+    "volume": 8994
+  },
+  "last_candle": {
+    "time": 1577743200,
+    "Time": "2019-12-30T22:00:00.000000000Z",
+    "open": 5986.0,
+    "high": 5989.4,
+    "low": 5959.0,
+    "close": 5980.4,
+    "volume": 5848
+  },
+  "csv_file": "OANDA_FR40EUR_France-40_D_2010-01-01_to_2019-12-31.parquet",
+  "csv_row_count": 2569,
+  "csv_first_candle": {
+    "time": 1262556000,
+    "Time": "2010-01-03T22:00:00.000000000Z",
+    "open": 3944.1,
+    "high": 4012.7,
+    "low": 3934.6,
+    "close": 3996.9,
+    "volume": 8994
+  },
+  "csv_last_candle": {
+    "time": 1577743200,
+    "Time": "2019-12-30T22:00:00.000000000Z",
+    "open": 5986.0,
+    "high": 5989.4,
+    "low": 5959.0,
+    "close": 5980.4,
+    "volume": 5848
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T01:46:46.000000000Z",
+  "generated_at": "2026-10-16T01:46:46.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2,
+    "chunk_api_blocks": 2,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2003-02-02T22:00:00Z",
+        "to": "2016-10-11T22:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2016-10-11T22:00:00Z",
+        "to": "2026-10-15T21:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
